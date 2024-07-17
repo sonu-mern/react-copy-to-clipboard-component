@@ -1,0 +1,28 @@
+{
+  "name": "react-copy-to-clipboard-component",
+  "version": "1.0.0",
+  "description": "A React component to copy text to the clipboard on single click ",
+ "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonu-mern/react-copy-to-clipboard-component.git"
+  },
+  "keywords": [
+    "react",
+    "clipboard",
+    "copy"
+  ],
+  "author": "Sonu Rajkumar Mahto",
+  "license": "MIT",
+
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
